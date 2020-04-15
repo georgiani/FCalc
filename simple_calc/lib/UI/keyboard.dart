@@ -16,6 +16,7 @@ class KeyboardSpace extends StatelessWidget {
               child: Column(
                 children: [
                   Expanded(
+                    flex: 2,
                     child: Row(
                       children: [
                         Expanded(
@@ -67,6 +68,7 @@ class KeyboardSpace extends StatelessWidget {
                     ),
                   ),
                   Expanded(
+                    flex: 2,
                     child: Row(
                       children: [
                         Expanded(
@@ -118,6 +120,7 @@ class KeyboardSpace extends StatelessWidget {
                     ),
                   ),
                   Expanded(
+                    flex: 2,
                     child: Row(
                       children: [
                         Expanded(
@@ -166,6 +169,22 @@ class KeyboardSpace extends StatelessWidget {
                           ),
                         ),
                       ],
+                    ),
+                  ),
+                  Expanded(
+                    flex: 1,
+                    child: GestureDetector(
+                      child: Center(
+                        child: Text(
+                          "Zero",
+                          style: TextStyle(
+                            fontSize: 15,
+                          ),
+                        ),
+                      ),
+                      onTap: () {
+                        calcModel.addToNumber(0);
+                      },
                     ),
                   ),
                 ],
