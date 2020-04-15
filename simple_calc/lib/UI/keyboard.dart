@@ -29,7 +29,7 @@ class KeyboardSpace extends StatelessWidget {
                               ),
                             ),
                             onTap: () {
-                              calcModel.rop = 7;
+                              calcModel.addToNumber(7);
                             },
                           ),
                         ),
@@ -44,7 +44,7 @@ class KeyboardSpace extends StatelessWidget {
                               ),
                             ),
                             onTap: () {
-                              calcModel.rop = 8;
+                              calcModel.addToNumber(8);
                             },
                           ),
                         ),
@@ -59,7 +59,7 @@ class KeyboardSpace extends StatelessWidget {
                               ),
                             ),
                             onTap: () {
-                              calcModel.rop = 9;
+                              calcModel.addToNumber(9);
                             },
                           ),
                         ),
@@ -80,7 +80,7 @@ class KeyboardSpace extends StatelessWidget {
                               ),
                             ),
                             onTap: () {
-                              calcModel.rop = 4;
+                              calcModel.addToNumber(4);
                             },
                           ),
                         ),
@@ -95,7 +95,7 @@ class KeyboardSpace extends StatelessWidget {
                               ),
                             ),
                             onTap: () {
-                              calcModel.rop = 5;
+                              calcModel.addToNumber(5);
                             },
                           ),
                         ),
@@ -110,7 +110,7 @@ class KeyboardSpace extends StatelessWidget {
                               ),
                             ),
                             onTap: () {
-                              calcModel.rop = 6;
+                              calcModel.addToNumber(6);
                             },
                           ),
                         ),
@@ -131,7 +131,7 @@ class KeyboardSpace extends StatelessWidget {
                               ),
                             ),
                             onTap: () {
-                              calcModel.rop = 1;
+                              calcModel.addToNumber(1);
                             },
                           ),
                         ),
@@ -146,7 +146,7 @@ class KeyboardSpace extends StatelessWidget {
                               ),
                             ),
                             onTap: () {
-                              calcModel.rop = 2;
+                              calcModel.addToNumber(2);
                             },
                           ),
                         ),
@@ -161,7 +161,7 @@ class KeyboardSpace extends StatelessWidget {
                               ),
                             ),
                             onTap: () {
-                              calcModel.rop = 3;
+                              calcModel.addToNumber(3);
                             },
                           ),
                         ),

@@ -20,7 +20,7 @@ class ResultSpace extends StatelessWidget {
               child: Container(
                 alignment: Alignment.bottomLeft,
                 child: Text(
-                  calcModel.result.toString(),
+                  calcModel.leftOrRight == "left" ? calcModel.lop.toString() : calcModel.rop.toString(),
                   style: TextStyle(
                     fontSize: 60,
                   ),
